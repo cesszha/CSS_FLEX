@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Profiles</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item,
+.card,
+.profile,
+.gallery-item {
+    flex: 1 1 calc(20% - 10px);
+    margin: 5px;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery-item {
+    width: calc(25% - 10px);
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile">Student A</div>
+        <div class="profile">Student B</div>
+        <div class="profile">Student C</div>
+        <div class="profile">Student D</div>
+        <div class="profile">Student E</div>
+    </div>
+</body>
+</html>
